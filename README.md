@@ -1,4 +1,4 @@
-# Rock The JVM - Rock The JVM - Apache Flink with Scala
+# Rock The JVM - Apache Flink with Scala
 
 Master Apache Flink with Scala.
 
@@ -28,3 +28,10 @@ Install Docker:
 
 - https://docs.docker.com/desktop/install/ubuntu/
 - https://docs.docker.com/engine/install/ubuntu/#set-up-the-repository
+
+Start the Kafka container:
+
+```bash
+$ cd docker/kafka
+$ docker compose up
+```

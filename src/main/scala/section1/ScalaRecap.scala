@@ -81,9 +81,7 @@ object ScalaRecap {
 
 
   val unkown: Any = 45
-  val medal =
-  match
-  {
+  val medal = unkown match {
     case 1 => "gold"
     case 2 => "silver"
     case 3 => "bronze"
